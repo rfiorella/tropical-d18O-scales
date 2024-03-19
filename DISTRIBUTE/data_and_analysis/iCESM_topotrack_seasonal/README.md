@@ -9,4 +9,4 @@ This directory contains `*.nc` and `*.csv` files with iCESM results that include
 
 
 ## Missing files (!!)
-NOTE – this directory had 4 files larger than github's limit of 100MB. Please find those files separately on Zenodo: ==[TK – link]==. Contact me (tkukla13@gmail.org) with any questions or issues.
+NOTE – this directory had 4 files larger than github's limit of 100MB. Please find those files separately on Zenodo: [Additional files for `spatial scales of tropical isotope change` project](https://zenodo.org/records/10836049?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjRiNTU5YzEwLWIxM2EtNDYwNC04YjBkLTIwY2ZlY2IxZmI3NSIsImRhdGEiOnt9LCJyYW5kb20iOiIzODM1MTFmZWJhMjQ3NzUxZWJhMGIyNjdiOTUxNTBhMiJ9.OEDPKuLeWStR8GBxXSJJl17aeD-dQMzoCUxKwgIskMY8icA6OcQXn-v3K36hP3fi34FK9AKINWMGMMKn569g5A). Contact me (tkukla13@gmail.org) with any questions or issues.
