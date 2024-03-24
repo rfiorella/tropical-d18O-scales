@@ -30,6 +30,9 @@ save.here <- mainPath
 # --- PLOT
 # ... median line
 med <- median(df[latitude > -37 & latitude < 37]$xrange)
+# ... 90th percentile
+p90 <- quantile(df[latitude > -37 & latitude < 37]$xrange, probs=0.9)
+
 
 # [1] HISTOGRAM
 p.hist <- ggplot(df[latitude > -37 & latitude < 37]) +
@@ -37,6 +40,9 @@ p.hist <- ggplot(df[latitude > -37 & latitude < 37]) +
   # median line
   annotate(geom='segment', x=med, xend=med, y=0, yend=0.5,
            size=1, color='darkred', linetype='dashed') +
+  # 90th percentile
+  annotate(geom='segment', x=p90, xend=p90, y=0, yend=0.5,
+           size=1, color='pink', linetype='dashed') +
   # hist and density
   geom_histogram(aes(x=xrange, y=..density..), bins=20, color='darkgray') +
   geom_density(aes(x=xrange), size=2) + 
