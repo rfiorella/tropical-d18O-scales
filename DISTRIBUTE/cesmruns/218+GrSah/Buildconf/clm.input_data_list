@@ -1,0 +1,5 @@
+mml_surdat = /glade/u/home/mlague/cesmruns/simple_land/inputs/miocene/slim_mio_dark_sahara_fromCLM5_1850all_f19_20190110_20210803.nc
+paramfile = /glade/p/cesmdata/cseg/inputdata/lnd/clm2/paramdata/clm5_params.c171117.nc
+fatmlndfrc = /glade/p/cesmdata/cseg/inputdata/share/domains/domain.lnd.fv1.9x2.5_gx1v6.090206.nc
+fsurdat = /glade/p/cesmdata/cseg/inputdata/lnd/clm2/surfdata_map/surfdata_1.9x2.5_16pfts_Irrig_CMIP6_simyr2000_c170824.nc
+finidat = /glade/p/cesmdata/cseg/inputdata/lnd/clm2/initdata_map/clmi.IGM2000GSWP3CLM50BGCCROPIRR.2011-01-01.1.9x2.5_gx1v6_gl5_simyr2000_c170419.nc

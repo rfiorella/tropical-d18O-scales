@@ -1,0 +1,26 @@
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+Generating namelists for /glade/u/home/tykukla/cesmruns/miocene_proj/mio_1850alb_367ppm_v3
+Creating component namelists
+   Calling /glade/u/home/tykukla/cesm_source/SimpleLand/SimpleLand/cime/../components/cam//cime_config/buildnml
+CAM namelist copy: file1 /glade/u/home/tykukla/cesmruns/miocene_proj/mio_1850alb_367ppm_v3/Buildconf/camconf/atm_in file2 /glade/scratch/tykukla/mio_1850alb_367ppm_v3/run/atm_in 
+   Calling /glade/u/home/tykukla/cesm_source/SimpleLand/SimpleLand/cime/../cime_config/buildnml
+   Calling /glade/u/home/tykukla/cesm_source/SimpleLand/SimpleLand/cime/../components/cice//cime_config/buildnml
+   Calling /glade/u/home/tykukla/cesm_source/SimpleLand/SimpleLand/cime/src/components/data_comps/docn/cime_config/buildnml
+   Calling /glade/u/home/tykukla/cesm_source/SimpleLand/SimpleLand/cime/src/components/stub_comps/srof/cime_config/buildnml
+   Calling /glade/u/home/tykukla/cesm_source/SimpleLand/SimpleLand/cime/src/components/stub_comps/sglc/cime_config/buildnml
+   Calling /glade/u/home/tykukla/cesm_source/SimpleLand/SimpleLand/cime/src/components/stub_comps/swav/cime_config/buildnml
+   Calling /glade/u/home/tykukla/cesm_source/SimpleLand/SimpleLand/cime/src/components/stub_comps/sesp/cime_config/buildnml
+   Calling /glade/u/home/tykukla/cesm_source/SimpleLand/SimpleLand/cime/src/drivers/mct/cime_config/buildnml
+Finished creating component namelists
+-------------------------------------------------------------------------
+ - Prestage required restarts into /glade/scratch/tykukla/mio_1850alb_367ppm_v3/run
+ - Case input data directory (DIN_LOC_ROOT) is /glade/p/cesmdata/cseg/inputdata 
+ - Checking for required input datasets in DIN_LOC_ROOT
+-------------------------------------------------------------------------
+2023-05-11 08:45:50 MODEL EXECUTION BEGINS HERE
+run command is mpiexec_mpt -p "%g:"  -np 324  omplace -tm open64  /glade/scratch/tykukla/mio_1850alb_367ppm_v3/bld/cesm.exe  >> cesm.log.$LID 2>&1  
+2023-05-11 12:00:35 MODEL EXECUTION HAS FINISHED
+check for resubmit
+dout_s True 
+mach cheyenne 
+resubmit_num 3

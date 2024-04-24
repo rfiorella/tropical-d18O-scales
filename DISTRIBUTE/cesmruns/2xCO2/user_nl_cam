@@ -1,0 +1,19 @@
+! Users should add all user specific namelist changes below in the form of 
+! namelist_var = new_namelist_value 
+
+co2vmr = 734.0e-6
+
+state_debug_checks=.true.
+!nspltvrm=2
+!nspltrac=2
+!nsplit=4
+!dtime=1800
+
+!fv_nspltvrm = 4
+!pertlim = 0.00000000000001
+
+
+
+! get time-step output to see if I can tell what is causing the error (ql0 goes nan)
+!nhtfrq = -1
+ 

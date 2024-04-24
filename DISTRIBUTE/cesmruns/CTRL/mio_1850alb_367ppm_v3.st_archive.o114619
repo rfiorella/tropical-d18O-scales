@@ -1,0 +1,42 @@
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+st_archive starting
+moving /glade/scratch/tykukla/mio_1850alb_367ppm_v3/run/lnd.log.114618.chadmin1.ib0.cheyenne.ucar.edu.230508-115538.gz to /glade/scratch/tykukla/archive/mio_1850alb_367ppm_v3/logs/lnd.log.114618.chadmin1.ib0.cheyenne.ucar.edu.230508-115538.gz
+moving /glade/scratch/tykukla/mio_1850alb_367ppm_v3/run/cpl.log.114618.chadmin1.ib0.cheyenne.ucar.edu.230508-115538.gz to /glade/scratch/tykukla/archive/mio_1850alb_367ppm_v3/logs/cpl.log.114618.chadmin1.ib0.cheyenne.ucar.edu.230508-115538.gz
+moving /glade/scratch/tykukla/mio_1850alb_367ppm_v3/run/cesm.log.114618.chadmin1.ib0.cheyenne.ucar.edu.230508-115538.gz to /glade/scratch/tykukla/archive/mio_1850alb_367ppm_v3/logs/cesm.log.114618.chadmin1.ib0.cheyenne.ucar.edu.230508-115538.gz
+moving /glade/scratch/tykukla/mio_1850alb_367ppm_v3/run/ice.log.114618.chadmin1.ib0.cheyenne.ucar.edu.230508-115538.gz to /glade/scratch/tykukla/archive/mio_1850alb_367ppm_v3/logs/ice.log.114618.chadmin1.ib0.cheyenne.ucar.edu.230508-115538.gz
+moving /glade/scratch/tykukla/mio_1850alb_367ppm_v3/run/atm.log.114618.chadmin1.ib0.cheyenne.ucar.edu.230508-115538.gz to /glade/scratch/tykukla/archive/mio_1850alb_367ppm_v3/logs/atm.log.114618.chadmin1.ib0.cheyenne.ucar.edu.230508-115538.gz
+moving /glade/scratch/tykukla/mio_1850alb_367ppm_v3/run/ocn.log.114618.chadmin1.ib0.cheyenne.ucar.edu.230508-115538.gz to /glade/scratch/tykukla/archive/mio_1850alb_367ppm_v3/logs/ocn.log.114618.chadmin1.ib0.cheyenne.ucar.edu.230508-115538.gz
+-------------------------------------------
+Archiving restarts for date date(1, 1, 2, 0, 0, 0)
+-------------------------------------------
+Archiving restarts for cam (atm)
+copying file /glade/scratch/tykukla/mio_1850alb_367ppm_v3/run/mio_1850alb_367ppm_v3.cam.r.0001-01-02-00000.nc to /glade/scratch/tykukla/archive/mio_1850alb_367ppm_v3/rest/0001-01-02-00000/mio_1850alb_367ppm_v3.cam.r.0001-01-02-00000.nc
+ WARNING: ncdump -v nhfil /glade/scratch/tykukla/mio_1850alb_367ppm_v3/run/mio_1850alb_367ppm_v3.cam.rh0.0001-01-02-00000.nc  failed rc=1
+    out=
+    err=ncdump: nhfil: No such variable
+copying file /glade/scratch/tykukla/mio_1850alb_367ppm_v3/run/mio_1850alb_367ppm_v3.cam.rh0.0001-01-02-00000.nc to /glade/scratch/tykukla/archive/mio_1850alb_367ppm_v3/rest/0001-01-02-00000/mio_1850alb_367ppm_v3.cam.rh0.0001-01-02-00000.nc
+ WARNING: ncdump -v nhfil /glade/scratch/tykukla/mio_1850alb_367ppm_v3/run/mio_1850alb_367ppm_v3.cam.rs.0001-01-02-00000.nc  failed rc=1
+    out=
+    err=ncdump: nhfil: No such variable
+copying file /glade/scratch/tykukla/mio_1850alb_367ppm_v3/run/mio_1850alb_367ppm_v3.cam.rs.0001-01-02-00000.nc to /glade/scratch/tykukla/archive/mio_1850alb_367ppm_v3/rest/0001-01-02-00000/mio_1850alb_367ppm_v3.cam.rs.0001-01-02-00000.nc
+Archiving restarts for clm (lnd)
+copying file /glade/scratch/tykukla/mio_1850alb_367ppm_v3/run/mio_1850alb_367ppm_v3.clm2.r.0001-01-02-00000.nc to /glade/scratch/tykukla/archive/mio_1850alb_367ppm_v3/rest/0001-01-02-00000/mio_1850alb_367ppm_v3.clm2.r.0001-01-02-00000.nc
+ WARNING: ncdump -v locfnh /glade/scratch/tykukla/mio_1850alb_367ppm_v3/run/mio_1850alb_367ppm_v3.clm2.rh0.0001-01-02-00000.nc  failed rc=1
+    out=
+    err=ncdump: locfnh: No such variable
+copying file /glade/scratch/tykukla/mio_1850alb_367ppm_v3/run/mio_1850alb_367ppm_v3.clm2.rh0.0001-01-02-00000.nc to /glade/scratch/tykukla/archive/mio_1850alb_367ppm_v3/rest/0001-01-02-00000/mio_1850alb_367ppm_v3.clm2.rh0.0001-01-02-00000.nc
+Archiving restarts for cice (ice)
+copying file /glade/scratch/tykukla/mio_1850alb_367ppm_v3/run/mio_1850alb_367ppm_v3.cice.r.0001-01-02-00000.nc to /glade/scratch/tykukla/archive/mio_1850alb_367ppm_v3/rest/0001-01-02-00000/mio_1850alb_367ppm_v3.cice.r.0001-01-02-00000.nc
+Archiving restarts for docn (ocn)
+copying file /glade/scratch/tykukla/mio_1850alb_367ppm_v3/run/mio_1850alb_367ppm_v3.docn.r.0001-01-02-00000.nc to /glade/scratch/tykukla/archive/mio_1850alb_367ppm_v3/rest/0001-01-02-00000/mio_1850alb_367ppm_v3.docn.r.0001-01-02-00000.nc
+copying file /glade/scratch/tykukla/mio_1850alb_367ppm_v3/run/mio_1850alb_367ppm_v3.docn.rs1.0001-01-02-00000.bin to /glade/scratch/tykukla/archive/mio_1850alb_367ppm_v3/rest/0001-01-02-00000/mio_1850alb_367ppm_v3.docn.rs1.0001-01-02-00000.bin
+Archiving restarts for drv (cpl)
+copying file /glade/scratch/tykukla/mio_1850alb_367ppm_v3/run/mio_1850alb_367ppm_v3.cpl.r.0001-01-02-00000.nc to /glade/scratch/tykukla/archive/mio_1850alb_367ppm_v3/rest/0001-01-02-00000/mio_1850alb_367ppm_v3.cpl.r.0001-01-02-00000.nc
+Archiving restarts for dart (esp)
+Archiving history files for cam (atm)
+Archiving history files for clm (lnd)
+Archiving history files for cice (ice)
+Archiving history files for docn (ocn)
+Archiving history files for drv (cpl)
+Archiving history files for dart (esp)
+st_archive completed

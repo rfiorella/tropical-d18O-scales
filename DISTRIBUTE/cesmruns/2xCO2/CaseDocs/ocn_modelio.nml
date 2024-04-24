@@ -1,0 +1,13 @@
+&modelio
+  diri = "/glade/scratch/tykukla/mio_1850alb_734ppm/bld/ocn"
+  diro = "/glade/scratch/tykukla/mio_1850alb_734ppm/run"
+  logfile = "ocn.log.1400433.chadmin1.ib0.cheyenne.ucar.edu.230617-190659"
+/
+&pio_inparm
+  pio_netcdf_format = "64bit_offset"
+  pio_numiotasks = -99
+  pio_rearranger = 1
+  pio_root = 1
+  pio_stride = 36
+  pio_typename = "pnetcdf"
+/

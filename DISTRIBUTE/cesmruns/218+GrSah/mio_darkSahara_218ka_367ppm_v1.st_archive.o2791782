@@ -1,0 +1,229 @@
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+st_archive starting
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/lnd.log.2791781.chadmin1.ib0.cheyenne.ucar.edu.230822-164239.gz to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/logs/lnd.log.2791781.chadmin1.ib0.cheyenne.ucar.edu.230822-164239.gz
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/ice.log.2791781.chadmin1.ib0.cheyenne.ucar.edu.230822-164239.gz to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/logs/ice.log.2791781.chadmin1.ib0.cheyenne.ucar.edu.230822-164239.gz
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/atm.log.2791781.chadmin1.ib0.cheyenne.ucar.edu.230822-164239.gz to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/logs/atm.log.2791781.chadmin1.ib0.cheyenne.ucar.edu.230822-164239.gz
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/cpl.log.2791781.chadmin1.ib0.cheyenne.ucar.edu.230822-164239.gz to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/logs/cpl.log.2791781.chadmin1.ib0.cheyenne.ucar.edu.230822-164239.gz
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/ocn.log.2791781.chadmin1.ib0.cheyenne.ucar.edu.230822-164239.gz to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/logs/ocn.log.2791781.chadmin1.ib0.cheyenne.ucar.edu.230822-164239.gz
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/cesm.log.2791781.chadmin1.ib0.cheyenne.ucar.edu.230822-164239.gz to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/logs/cesm.log.2791781.chadmin1.ib0.cheyenne.ucar.edu.230822-164239.gz
+-------------------------------------------
+Archiving restarts for date date(41, 1, 1, 0, 0, 0)
+-------------------------------------------
+Archiving restarts for cam (atm)
+removing interim restart file /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.r.0041-01-01-00000.nc
+ WARNING: ncdump -v nhfil /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.i.0041-01-01-00000.nc  failed rc=1
+    out=
+    err=ncdump: nhfil: No such variable
+removing interim restart file /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.i.0041-01-01-00000.nc
+ WARNING: ncdump -v nhfil /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.rs.0041-01-01-00000.nc  failed rc=1
+    out=
+    err=ncdump: nhfil: No such variable
+removing interim restart file /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.rs.0041-01-01-00000.nc
+Archiving restarts for clm (lnd)
+removing interim restart file /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.r.0041-01-01-00000.nc
+ WARNING: ncdump -v locfnh /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.rh0.0041-01-01-00000.nc  failed rc=1
+    out=
+    err=ncdump: locfnh: No such variable
+removing interim restart file /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.rh0.0041-01-01-00000.nc
+Archiving restarts for cice (ice)
+removing interim restart file /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.r.0041-01-01-00000.nc
+Archiving restarts for docn (ocn)
+removing interim restart file /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.docn.rs1.0041-01-01-00000.bin
+removing interim restart file /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.docn.r.0041-01-01-00000.nc
+Archiving restarts for drv (cpl)
+removing interim restart file /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cpl.r.0041-01-01-00000.nc
+Archiving restarts for dart (esp)
+-------------------------------------------
+Archiving restarts for date date(45, 1, 1, 0, 0, 0)
+-------------------------------------------
+Archiving restarts for cam (atm)
+copying file /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.r.0045-01-01-00000.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/rest/0045-01-01-00000/mio_darkSahara_218ka_367ppm_v1.cam.r.0045-01-01-00000.nc
+Copying /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.i.0045-01-01-00000.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/rest/0045-01-01-00000/mio_darkSahara_218ka_367ppm_v1.cam.i.0045-01-01-00000.nc
+Copying /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0044-12.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/rest/0045-01-01-00000/mio_darkSahara_218ka_367ppm_v1.cam.h0.0044-12.nc
+ WARNING: ncdump -v nhfil /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.i.0045-01-01-00000.nc  failed rc=1
+    out=
+    err=ncdump: nhfil: No such variable
+copying file /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.i.0045-01-01-00000.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/rest/0045-01-01-00000/mio_darkSahara_218ka_367ppm_v1.cam.i.0045-01-01-00000.nc
+ WARNING: ncdump -v nhfil /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.rs.0045-01-01-00000.nc  failed rc=1
+    out=
+    err=ncdump: nhfil: No such variable
+copying file /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.rs.0045-01-01-00000.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/rest/0045-01-01-00000/mio_darkSahara_218ka_367ppm_v1.cam.rs.0045-01-01-00000.nc
+Archiving restarts for clm (lnd)
+copying file /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.r.0045-01-01-00000.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/rest/0045-01-01-00000/mio_darkSahara_218ka_367ppm_v1.clm2.r.0045-01-01-00000.nc
+Copying /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0044-12.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/rest/0045-01-01-00000/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0044-12.nc
+ WARNING: ncdump -v locfnh /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.rh0.0045-01-01-00000.nc  failed rc=1
+    out=
+    err=ncdump: locfnh: No such variable
+copying file /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.rh0.0045-01-01-00000.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/rest/0045-01-01-00000/mio_darkSahara_218ka_367ppm_v1.clm2.rh0.0045-01-01-00000.nc
+Archiving restarts for cice (ice)
+copying file /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.r.0045-01-01-00000.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/rest/0045-01-01-00000/mio_darkSahara_218ka_367ppm_v1.cice.r.0045-01-01-00000.nc
+Archiving restarts for docn (ocn)
+copying file /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.docn.rs1.0045-01-01-00000.bin to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/rest/0045-01-01-00000/mio_darkSahara_218ka_367ppm_v1.docn.rs1.0045-01-01-00000.bin
+copying file /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.docn.r.0045-01-01-00000.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/rest/0045-01-01-00000/mio_darkSahara_218ka_367ppm_v1.docn.r.0045-01-01-00000.nc
+Archiving restarts for drv (cpl)
+copying file /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cpl.r.0045-01-01-00000.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/rest/0045-01-01-00000/mio_darkSahara_218ka_367ppm_v1.cpl.r.0045-01-01-00000.nc
+Archiving restarts for dart (esp)
+Archiving history files for cam (atm)
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0041-10.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/atm/hist/mio_darkSahara_218ka_367ppm_v1.cam.h0.0041-10.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0042-09.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/atm/hist/mio_darkSahara_218ka_367ppm_v1.cam.h0.0042-09.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0043-01.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/atm/hist/mio_darkSahara_218ka_367ppm_v1.cam.h0.0043-01.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0044-09.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/atm/hist/mio_darkSahara_218ka_367ppm_v1.cam.h0.0044-09.nc 
+copying /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0044-12.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/atm/hist/mio_darkSahara_218ka_367ppm_v1.cam.h0.0044-12.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0042-11.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/atm/hist/mio_darkSahara_218ka_367ppm_v1.cam.h0.0042-11.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0044-05.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/atm/hist/mio_darkSahara_218ka_367ppm_v1.cam.h0.0044-05.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0044-01.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/atm/hist/mio_darkSahara_218ka_367ppm_v1.cam.h0.0044-01.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0044-10.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/atm/hist/mio_darkSahara_218ka_367ppm_v1.cam.h0.0044-10.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0043-08.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/atm/hist/mio_darkSahara_218ka_367ppm_v1.cam.h0.0043-08.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0042-03.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/atm/hist/mio_darkSahara_218ka_367ppm_v1.cam.h0.0042-03.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0040-12.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/atm/hist/mio_darkSahara_218ka_367ppm_v1.cam.h0.0040-12.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0041-08.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/atm/hist/mio_darkSahara_218ka_367ppm_v1.cam.h0.0041-08.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0043-05.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/atm/hist/mio_darkSahara_218ka_367ppm_v1.cam.h0.0043-05.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0043-02.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/atm/hist/mio_darkSahara_218ka_367ppm_v1.cam.h0.0043-02.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0041-11.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/atm/hist/mio_darkSahara_218ka_367ppm_v1.cam.h0.0041-11.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0041-09.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/atm/hist/mio_darkSahara_218ka_367ppm_v1.cam.h0.0041-09.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0042-04.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/atm/hist/mio_darkSahara_218ka_367ppm_v1.cam.h0.0042-04.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0043-11.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/atm/hist/mio_darkSahara_218ka_367ppm_v1.cam.h0.0043-11.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0043-06.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/atm/hist/mio_darkSahara_218ka_367ppm_v1.cam.h0.0043-06.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0043-07.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/atm/hist/mio_darkSahara_218ka_367ppm_v1.cam.h0.0043-07.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0041-05.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/atm/hist/mio_darkSahara_218ka_367ppm_v1.cam.h0.0041-05.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0042-12.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/atm/hist/mio_darkSahara_218ka_367ppm_v1.cam.h0.0042-12.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0044-02.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/atm/hist/mio_darkSahara_218ka_367ppm_v1.cam.h0.0044-02.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0042-01.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/atm/hist/mio_darkSahara_218ka_367ppm_v1.cam.h0.0042-01.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0042-10.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/atm/hist/mio_darkSahara_218ka_367ppm_v1.cam.h0.0042-10.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0044-03.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/atm/hist/mio_darkSahara_218ka_367ppm_v1.cam.h0.0044-03.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0044-06.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/atm/hist/mio_darkSahara_218ka_367ppm_v1.cam.h0.0044-06.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0043-04.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/atm/hist/mio_darkSahara_218ka_367ppm_v1.cam.h0.0043-04.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0041-04.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/atm/hist/mio_darkSahara_218ka_367ppm_v1.cam.h0.0041-04.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0044-11.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/atm/hist/mio_darkSahara_218ka_367ppm_v1.cam.h0.0044-11.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0044-07.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/atm/hist/mio_darkSahara_218ka_367ppm_v1.cam.h0.0044-07.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0044-08.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/atm/hist/mio_darkSahara_218ka_367ppm_v1.cam.h0.0044-08.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0043-12.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/atm/hist/mio_darkSahara_218ka_367ppm_v1.cam.h0.0043-12.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0042-08.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/atm/hist/mio_darkSahara_218ka_367ppm_v1.cam.h0.0042-08.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0042-05.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/atm/hist/mio_darkSahara_218ka_367ppm_v1.cam.h0.0042-05.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0042-02.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/atm/hist/mio_darkSahara_218ka_367ppm_v1.cam.h0.0042-02.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0041-06.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/atm/hist/mio_darkSahara_218ka_367ppm_v1.cam.h0.0041-06.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0041-03.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/atm/hist/mio_darkSahara_218ka_367ppm_v1.cam.h0.0041-03.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0043-03.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/atm/hist/mio_darkSahara_218ka_367ppm_v1.cam.h0.0043-03.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0043-09.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/atm/hist/mio_darkSahara_218ka_367ppm_v1.cam.h0.0043-09.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0042-06.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/atm/hist/mio_darkSahara_218ka_367ppm_v1.cam.h0.0042-06.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0041-07.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/atm/hist/mio_darkSahara_218ka_367ppm_v1.cam.h0.0041-07.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0044-04.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/atm/hist/mio_darkSahara_218ka_367ppm_v1.cam.h0.0044-04.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0041-12.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/atm/hist/mio_darkSahara_218ka_367ppm_v1.cam.h0.0041-12.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0043-10.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/atm/hist/mio_darkSahara_218ka_367ppm_v1.cam.h0.0043-10.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0042-07.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/atm/hist/mio_darkSahara_218ka_367ppm_v1.cam.h0.0042-07.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0041-02.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/atm/hist/mio_darkSahara_218ka_367ppm_v1.cam.h0.0041-02.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cam.h0.0041-01.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/atm/hist/mio_darkSahara_218ka_367ppm_v1.cam.h0.0041-01.nc 
+Archiving history files for clm (lnd)
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0043-02.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/lnd/hist/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0043-02.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0042-08.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/lnd/hist/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0042-08.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0044-10.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/lnd/hist/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0044-10.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0042-04.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/lnd/hist/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0042-04.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0043-11.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/lnd/hist/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0043-11.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0041-11.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/lnd/hist/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0041-11.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0041-05.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/lnd/hist/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0041-05.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0042-10.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/lnd/hist/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0042-10.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0043-01.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/lnd/hist/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0043-01.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0041-03.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/lnd/hist/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0041-03.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0041-08.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/lnd/hist/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0041-08.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0042-06.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/lnd/hist/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0042-06.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0043-10.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/lnd/hist/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0043-10.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0044-02.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/lnd/hist/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0044-02.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0041-07.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/lnd/hist/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0041-07.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0044-03.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/lnd/hist/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0044-03.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0040-12.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/lnd/hist/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0040-12.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0041-01.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/lnd/hist/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0041-01.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0041-12.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/lnd/hist/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0041-12.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0042-09.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/lnd/hist/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0042-09.nc 
+copying /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0044-12.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/lnd/hist/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0044-12.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0043-12.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/lnd/hist/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0043-12.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0041-02.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/lnd/hist/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0041-02.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0044-05.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/lnd/hist/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0044-05.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0044-07.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/lnd/hist/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0044-07.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0041-04.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/lnd/hist/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0041-04.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0042-03.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/lnd/hist/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0042-03.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0043-05.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/lnd/hist/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0043-05.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0041-06.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/lnd/hist/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0041-06.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0042-01.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/lnd/hist/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0042-01.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0043-03.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/lnd/hist/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0043-03.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0042-07.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/lnd/hist/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0042-07.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0044-06.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/lnd/hist/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0044-06.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0043-08.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/lnd/hist/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0043-08.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0043-07.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/lnd/hist/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0043-07.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0044-08.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/lnd/hist/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0044-08.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0042-05.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/lnd/hist/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0042-05.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0042-12.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/lnd/hist/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0042-12.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0044-11.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/lnd/hist/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0044-11.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0044-01.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/lnd/hist/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0044-01.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0043-09.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/lnd/hist/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0043-09.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0043-06.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/lnd/hist/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0043-06.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0041-09.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/lnd/hist/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0041-09.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0044-04.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/lnd/hist/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0044-04.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0043-04.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/lnd/hist/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0043-04.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0042-11.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/lnd/hist/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0042-11.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0041-10.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/lnd/hist/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0041-10.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0042-02.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/lnd/hist/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0042-02.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0044-09.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/lnd/hist/mio_darkSahara_218ka_367ppm_v1.clm2.h0.0044-09.nc 
+Archiving history files for cice (ice)
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.h.0041-08.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/ice/hist/mio_darkSahara_218ka_367ppm_v1.cice.h.0041-08.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.h.0044-04.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/ice/hist/mio_darkSahara_218ka_367ppm_v1.cice.h.0044-04.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.h.0043-04.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/ice/hist/mio_darkSahara_218ka_367ppm_v1.cice.h.0043-04.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.h.0042-06.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/ice/hist/mio_darkSahara_218ka_367ppm_v1.cice.h.0042-06.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.h.0042-04.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/ice/hist/mio_darkSahara_218ka_367ppm_v1.cice.h.0042-04.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.h.0044-11.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/ice/hist/mio_darkSahara_218ka_367ppm_v1.cice.h.0044-11.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.h.0041-03.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/ice/hist/mio_darkSahara_218ka_367ppm_v1.cice.h.0041-03.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.h.0041-02.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/ice/hist/mio_darkSahara_218ka_367ppm_v1.cice.h.0041-02.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.h.0042-01.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/ice/hist/mio_darkSahara_218ka_367ppm_v1.cice.h.0042-01.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.h.0042-10.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/ice/hist/mio_darkSahara_218ka_367ppm_v1.cice.h.0042-10.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.h.0043-08.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/ice/hist/mio_darkSahara_218ka_367ppm_v1.cice.h.0043-08.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.h.0044-03.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/ice/hist/mio_darkSahara_218ka_367ppm_v1.cice.h.0044-03.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.h.0042-08.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/ice/hist/mio_darkSahara_218ka_367ppm_v1.cice.h.0042-08.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.h.0042-09.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/ice/hist/mio_darkSahara_218ka_367ppm_v1.cice.h.0042-09.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.h.0044-07.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/ice/hist/mio_darkSahara_218ka_367ppm_v1.cice.h.0044-07.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.h.0042-12.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/ice/hist/mio_darkSahara_218ka_367ppm_v1.cice.h.0042-12.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.h.0042-05.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/ice/hist/mio_darkSahara_218ka_367ppm_v1.cice.h.0042-05.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.h.0043-11.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/ice/hist/mio_darkSahara_218ka_367ppm_v1.cice.h.0043-11.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.h.0042-03.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/ice/hist/mio_darkSahara_218ka_367ppm_v1.cice.h.0042-03.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.h.0041-10.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/ice/hist/mio_darkSahara_218ka_367ppm_v1.cice.h.0041-10.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.h.0041-05.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/ice/hist/mio_darkSahara_218ka_367ppm_v1.cice.h.0041-05.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.h.0044-08.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/ice/hist/mio_darkSahara_218ka_367ppm_v1.cice.h.0044-08.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.h.0044-12.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/ice/hist/mio_darkSahara_218ka_367ppm_v1.cice.h.0044-12.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.h.0043-06.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/ice/hist/mio_darkSahara_218ka_367ppm_v1.cice.h.0043-06.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.h.0043-12.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/ice/hist/mio_darkSahara_218ka_367ppm_v1.cice.h.0043-12.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.h.0044-09.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/ice/hist/mio_darkSahara_218ka_367ppm_v1.cice.h.0044-09.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.h.0041-01.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/ice/hist/mio_darkSahara_218ka_367ppm_v1.cice.h.0041-01.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.h.0044-05.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/ice/hist/mio_darkSahara_218ka_367ppm_v1.cice.h.0044-05.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.h.0043-10.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/ice/hist/mio_darkSahara_218ka_367ppm_v1.cice.h.0043-10.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.h.0044-10.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/ice/hist/mio_darkSahara_218ka_367ppm_v1.cice.h.0044-10.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.h.0043-05.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/ice/hist/mio_darkSahara_218ka_367ppm_v1.cice.h.0043-05.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.h.0043-03.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/ice/hist/mio_darkSahara_218ka_367ppm_v1.cice.h.0043-03.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.h.0041-07.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/ice/hist/mio_darkSahara_218ka_367ppm_v1.cice.h.0041-07.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.h.0043-01.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/ice/hist/mio_darkSahara_218ka_367ppm_v1.cice.h.0043-01.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.h.0043-02.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/ice/hist/mio_darkSahara_218ka_367ppm_v1.cice.h.0043-02.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.h.0041-11.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/ice/hist/mio_darkSahara_218ka_367ppm_v1.cice.h.0041-11.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.h.0044-06.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/ice/hist/mio_darkSahara_218ka_367ppm_v1.cice.h.0044-06.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.h.0042-11.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/ice/hist/mio_darkSahara_218ka_367ppm_v1.cice.h.0042-11.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.h.0041-06.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/ice/hist/mio_darkSahara_218ka_367ppm_v1.cice.h.0041-06.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.h.0044-01.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/ice/hist/mio_darkSahara_218ka_367ppm_v1.cice.h.0044-01.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.h.0043-09.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/ice/hist/mio_darkSahara_218ka_367ppm_v1.cice.h.0043-09.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.h.0041-09.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/ice/hist/mio_darkSahara_218ka_367ppm_v1.cice.h.0041-09.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.h.0041-12.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/ice/hist/mio_darkSahara_218ka_367ppm_v1.cice.h.0041-12.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.h.0043-07.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/ice/hist/mio_darkSahara_218ka_367ppm_v1.cice.h.0043-07.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.h.0041-04.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/ice/hist/mio_darkSahara_218ka_367ppm_v1.cice.h.0041-04.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.h.0042-02.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/ice/hist/mio_darkSahara_218ka_367ppm_v1.cice.h.0042-02.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.h.0044-02.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/ice/hist/mio_darkSahara_218ka_367ppm_v1.cice.h.0044-02.nc 
+moving /glade/scratch/tykukla/mio_darkSahara_218ka_367ppm_v1/run/mio_darkSahara_218ka_367ppm_v1.cice.h.0042-07.nc to /glade/scratch/tykukla/archive/mio_darkSahara_218ka_367ppm_v1/ice/hist/mio_darkSahara_218ka_367ppm_v1.cice.h.0042-07.nc 
+Archiving history files for docn (ocn)
+Archiving history files for drv (cpl)
+Archiving history files for dart (esp)
+st_archive completed
+resubmitting from st_archive, resubmit=3
+Submitting job 'case.run', resubmit=3
+submit_jobs case.run
+Submit job case.run
+Submitting job script qsub -q regular -l walltime=12:00:00 -A UWAS0125 -v ARGS_FOR_SCRIPT='--resubmit' .case.run
+Submitted job id is 2793900.chadmin1.ib0.cheyenne.ucar.edu
+Submit job case.st_archive
+Submitting job script qsub -q share -l walltime=0:20:00 -A UWAS0125  -W depend=afterok:2793900.chadmin1.ib0.cheyenne.ucar.edu -v ARGS_FOR_SCRIPT='--resubmit' case.st_archive
+Submitted job id is 2793901.chadmin1.ib0.cheyenne.ucar.edu
+Submitted job case.run with id 2793900.chadmin1.ib0.cheyenne.ucar.edu
+Submitted job case.st_archive with id 2793901.chadmin1.ib0.cheyenne.ucar.edu

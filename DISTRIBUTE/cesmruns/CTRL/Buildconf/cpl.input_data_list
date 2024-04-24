@@ -1,0 +1,10 @@
+atm2ice_fmapname = /glade/p/cesmdata/cseg/inputdata/cpl/gridmaps/fv1.9x2.5/map_fv1.9x2.5_TO_gx1v6_aave.130322.nc
+ice2atm_fmapname = /glade/p/cesmdata/cseg/inputdata/cpl/gridmaps/gx1v6/map_gx1v6_TO_fv1.9x2.5_aave.130322.nc
+atm2ice_vmapname = /glade/p/cesmdata/cseg/inputdata/cpl/gridmaps/fv1.9x2.5/map_fv1.9x2.5_TO_gx1v6_patc.130322.nc
+atm2ocn_fmapname = /glade/p/cesmdata/cseg/inputdata/cpl/gridmaps/fv1.9x2.5/map_fv1.9x2.5_TO_gx1v6_aave.130322.nc
+ice2atm_smapname = /glade/p/cesmdata/cseg/inputdata/cpl/gridmaps/gx1v6/map_gx1v6_TO_fv1.9x2.5_aave.130322.nc
+atm2ocn_smapname = /glade/p/cesmdata/cseg/inputdata/cpl/gridmaps/fv1.9x2.5/map_fv1.9x2.5_TO_gx1v6_blin.130322.nc
+atm2ice_smapname = /glade/p/cesmdata/cseg/inputdata/cpl/gridmaps/fv1.9x2.5/map_fv1.9x2.5_TO_gx1v6_blin.130322.nc
+atm2ocn_vmapname = /glade/p/cesmdata/cseg/inputdata/cpl/gridmaps/fv1.9x2.5/map_fv1.9x2.5_TO_gx1v6_patc.130322.nc
+ocn2atm_smapname = /glade/p/cesmdata/cseg/inputdata/cpl/gridmaps/gx1v6/map_gx1v6_TO_fv1.9x2.5_aave.130322.nc
+ocn2atm_fmapname = /glade/p/cesmdata/cseg/inputdata/cpl/gridmaps/gx1v6/map_gx1v6_TO_fv1.9x2.5_aave.130322.nc

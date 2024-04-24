@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<file id="env_workflow.xml" version="2.0">
+  <header>
+      These variables may be changed anytime during a run, they
+      control jobs that will be submitted and their dependancies.
+    </header>
+</file>

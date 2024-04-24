@@ -1,0 +1,13 @@
+&modelio
+  diri = "/glade/scratch/tykukla/mio_1850alb_734ppm/bld/esp"
+  diro = "/glade/scratch/tykukla/mio_1850alb_734ppm/run"
+  logfile = "esp.log.1400433.chadmin1.ib0.cheyenne.ucar.edu.230617-190659"
+/
+&pio_inparm
+  pio_netcdf_format = ""
+  pio_numiotasks = -99
+  pio_rearranger = -99
+  pio_root = -99
+  pio_stride = -99
+  pio_typename = "nothing"
+/

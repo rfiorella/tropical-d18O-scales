@@ -1,0 +1,193 @@
+Setting resource.RLIMIT_STACK to -1 from (-1, -1)
+st_archive starting
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/ice.log.1371135.chadmin1.ib0.cheyenne.ucar.edu.230616-234716.gz to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/logs/ice.log.1371135.chadmin1.ib0.cheyenne.ucar.edu.230616-234716.gz
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/lnd.log.1371135.chadmin1.ib0.cheyenne.ucar.edu.230616-234716.gz to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/logs/lnd.log.1371135.chadmin1.ib0.cheyenne.ucar.edu.230616-234716.gz
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/ocn.log.1371135.chadmin1.ib0.cheyenne.ucar.edu.230616-234716.gz to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/logs/ocn.log.1371135.chadmin1.ib0.cheyenne.ucar.edu.230616-234716.gz
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/cpl.log.1371135.chadmin1.ib0.cheyenne.ucar.edu.230616-234716.gz to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/logs/cpl.log.1371135.chadmin1.ib0.cheyenne.ucar.edu.230616-234716.gz
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/cesm.log.1371135.chadmin1.ib0.cheyenne.ucar.edu.230616-234716.gz to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/logs/cesm.log.1371135.chadmin1.ib0.cheyenne.ucar.edu.230616-234716.gz
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/atm.log.1371135.chadmin1.ib0.cheyenne.ucar.edu.230616-234716.gz to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/logs/atm.log.1371135.chadmin1.ib0.cheyenne.ucar.edu.230616-234716.gz
+-------------------------------------------
+Archiving restarts for date date(31, 1, 1, 0, 0, 0)
+-------------------------------------------
+Archiving restarts for cam (atm)
+removing interim restart file /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cam.r.0031-01-01-00000.nc
+ WARNING: ncdump -v nhfil /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cam.i.0031-01-01-00000.nc  failed rc=1
+    out=
+    err=ncdump: nhfil: No such variable
+removing interim restart file /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cam.i.0031-01-01-00000.nc
+ WARNING: ncdump -v nhfil /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cam.rs.0031-01-01-00000.nc  failed rc=1
+    out=
+    err=ncdump: nhfil: No such variable
+removing interim restart file /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cam.rs.0031-01-01-00000.nc
+Archiving restarts for clm (lnd)
+removing interim restart file /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.clm2.r.0031-01-01-00000.nc
+ WARNING: ncdump -v locfnh /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.clm2.rh0.0031-01-01-00000.nc  failed rc=1
+    out=
+    err=ncdump: locfnh: No such variable
+removing interim restart file /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.clm2.rh0.0031-01-01-00000.nc
+Archiving restarts for cice (ice)
+removing interim restart file /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cice.r.0031-01-01-00000.nc
+Archiving restarts for docn (ocn)
+removing interim restart file /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.docn.rs1.0031-01-01-00000.bin
+removing interim restart file /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.docn.r.0031-01-01-00000.nc
+Archiving restarts for drv (cpl)
+removing interim restart file /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cpl.r.0031-01-01-00000.nc
+Archiving restarts for dart (esp)
+-------------------------------------------
+Archiving restarts for date date(34, 1, 1, 0, 0, 0)
+-------------------------------------------
+Archiving restarts for cam (atm)
+ WARNING: ncdump -v nhfil /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cam.i.0034-01-01-00000.nc  failed rc=1
+    out=
+    err=ncdump: nhfil: No such variable
+copying file /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cam.i.0034-01-01-00000.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/rest/0034-01-01-00000/mio_1850alb_734ppm.cam.i.0034-01-01-00000.nc
+copying file /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cam.r.0034-01-01-00000.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/rest/0034-01-01-00000/mio_1850alb_734ppm.cam.r.0034-01-01-00000.nc
+Copying /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cam.i.0034-01-01-00000.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/rest/0034-01-01-00000/mio_1850alb_734ppm.cam.i.0034-01-01-00000.nc
+Copying /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cam.h0.0033-12.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/rest/0034-01-01-00000/mio_1850alb_734ppm.cam.h0.0033-12.nc
+ WARNING: ncdump -v nhfil /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cam.rs.0034-01-01-00000.nc  failed rc=1
+    out=
+    err=ncdump: nhfil: No such variable
+copying file /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cam.rs.0034-01-01-00000.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/rest/0034-01-01-00000/mio_1850alb_734ppm.cam.rs.0034-01-01-00000.nc
+Archiving restarts for clm (lnd)
+copying file /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.clm2.r.0034-01-01-00000.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/rest/0034-01-01-00000/mio_1850alb_734ppm.clm2.r.0034-01-01-00000.nc
+Copying /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.clm2.h0.0033-12.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/rest/0034-01-01-00000/mio_1850alb_734ppm.clm2.h0.0033-12.nc
+ WARNING: ncdump -v locfnh /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.clm2.rh0.0034-01-01-00000.nc  failed rc=1
+    out=
+    err=ncdump: locfnh: No such variable
+copying file /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.clm2.rh0.0034-01-01-00000.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/rest/0034-01-01-00000/mio_1850alb_734ppm.clm2.rh0.0034-01-01-00000.nc
+Archiving restarts for cice (ice)
+copying file /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cice.r.0034-01-01-00000.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/rest/0034-01-01-00000/mio_1850alb_734ppm.cice.r.0034-01-01-00000.nc
+Archiving restarts for docn (ocn)
+copying file /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.docn.rs1.0034-01-01-00000.bin to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/rest/0034-01-01-00000/mio_1850alb_734ppm.docn.rs1.0034-01-01-00000.bin
+copying file /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.docn.r.0034-01-01-00000.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/rest/0034-01-01-00000/mio_1850alb_734ppm.docn.r.0034-01-01-00000.nc
+Archiving restarts for drv (cpl)
+copying file /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cpl.r.0034-01-01-00000.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/rest/0034-01-01-00000/mio_1850alb_734ppm.cpl.r.0034-01-01-00000.nc
+Archiving restarts for dart (esp)
+Archiving history files for cam (atm)
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cam.h0.0031-12.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/atm/hist/mio_1850alb_734ppm.cam.h0.0031-12.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cam.h0.0032-11.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/atm/hist/mio_1850alb_734ppm.cam.h0.0032-11.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cam.h0.0030-12.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/atm/hist/mio_1850alb_734ppm.cam.h0.0030-12.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cam.h0.0031-09.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/atm/hist/mio_1850alb_734ppm.cam.h0.0031-09.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cam.h0.0032-06.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/atm/hist/mio_1850alb_734ppm.cam.h0.0032-06.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cam.h0.0031-08.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/atm/hist/mio_1850alb_734ppm.cam.h0.0031-08.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cam.h0.0032-12.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/atm/hist/mio_1850alb_734ppm.cam.h0.0032-12.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cam.h0.0032-09.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/atm/hist/mio_1850alb_734ppm.cam.h0.0032-09.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cam.h0.0033-11.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/atm/hist/mio_1850alb_734ppm.cam.h0.0033-11.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cam.h0.0032-08.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/atm/hist/mio_1850alb_734ppm.cam.h0.0032-08.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cam.h0.0033-05.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/atm/hist/mio_1850alb_734ppm.cam.h0.0033-05.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cam.h0.0031-02.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/atm/hist/mio_1850alb_734ppm.cam.h0.0031-02.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cam.h0.0032-05.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/atm/hist/mio_1850alb_734ppm.cam.h0.0032-05.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cam.h0.0031-04.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/atm/hist/mio_1850alb_734ppm.cam.h0.0031-04.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cam.h0.0031-03.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/atm/hist/mio_1850alb_734ppm.cam.h0.0031-03.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cam.h0.0033-07.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/atm/hist/mio_1850alb_734ppm.cam.h0.0033-07.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cam.h0.0033-10.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/atm/hist/mio_1850alb_734ppm.cam.h0.0033-10.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cam.h0.0031-06.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/atm/hist/mio_1850alb_734ppm.cam.h0.0031-06.nc 
+copying /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cam.h0.0033-12.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/atm/hist/mio_1850alb_734ppm.cam.h0.0033-12.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cam.h0.0033-03.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/atm/hist/mio_1850alb_734ppm.cam.h0.0033-03.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cam.h0.0032-10.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/atm/hist/mio_1850alb_734ppm.cam.h0.0032-10.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cam.h0.0032-03.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/atm/hist/mio_1850alb_734ppm.cam.h0.0032-03.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cam.h0.0031-11.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/atm/hist/mio_1850alb_734ppm.cam.h0.0031-11.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cam.h0.0033-06.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/atm/hist/mio_1850alb_734ppm.cam.h0.0033-06.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cam.h0.0032-01.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/atm/hist/mio_1850alb_734ppm.cam.h0.0032-01.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cam.h0.0033-04.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/atm/hist/mio_1850alb_734ppm.cam.h0.0033-04.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cam.h0.0033-02.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/atm/hist/mio_1850alb_734ppm.cam.h0.0033-02.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cam.h0.0031-07.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/atm/hist/mio_1850alb_734ppm.cam.h0.0031-07.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cam.h0.0032-07.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/atm/hist/mio_1850alb_734ppm.cam.h0.0032-07.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cam.h0.0032-04.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/atm/hist/mio_1850alb_734ppm.cam.h0.0032-04.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cam.h0.0031-05.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/atm/hist/mio_1850alb_734ppm.cam.h0.0031-05.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cam.h0.0032-02.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/atm/hist/mio_1850alb_734ppm.cam.h0.0032-02.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cam.h0.0031-01.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/atm/hist/mio_1850alb_734ppm.cam.h0.0031-01.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cam.h0.0033-09.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/atm/hist/mio_1850alb_734ppm.cam.h0.0033-09.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cam.h0.0033-08.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/atm/hist/mio_1850alb_734ppm.cam.h0.0033-08.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cam.h0.0033-01.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/atm/hist/mio_1850alb_734ppm.cam.h0.0033-01.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cam.h0.0031-10.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/atm/hist/mio_1850alb_734ppm.cam.h0.0031-10.nc 
+Archiving history files for clm (lnd)
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.clm2.h0.0032-10.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/lnd/hist/mio_1850alb_734ppm.clm2.h0.0032-10.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.clm2.h0.0031-11.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/lnd/hist/mio_1850alb_734ppm.clm2.h0.0031-11.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.clm2.h0.0033-04.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/lnd/hist/mio_1850alb_734ppm.clm2.h0.0033-04.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.clm2.h0.0033-09.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/lnd/hist/mio_1850alb_734ppm.clm2.h0.0033-09.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.clm2.h0.0032-05.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/lnd/hist/mio_1850alb_734ppm.clm2.h0.0032-05.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.clm2.h0.0031-09.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/lnd/hist/mio_1850alb_734ppm.clm2.h0.0031-09.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.clm2.h0.0032-07.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/lnd/hist/mio_1850alb_734ppm.clm2.h0.0032-07.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.clm2.h0.0033-07.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/lnd/hist/mio_1850alb_734ppm.clm2.h0.0033-07.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.clm2.h0.0033-03.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/lnd/hist/mio_1850alb_734ppm.clm2.h0.0033-03.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.clm2.h0.0033-06.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/lnd/hist/mio_1850alb_734ppm.clm2.h0.0033-06.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.clm2.h0.0032-02.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/lnd/hist/mio_1850alb_734ppm.clm2.h0.0032-02.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.clm2.h0.0032-06.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/lnd/hist/mio_1850alb_734ppm.clm2.h0.0032-06.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.clm2.h0.0031-07.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/lnd/hist/mio_1850alb_734ppm.clm2.h0.0031-07.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.clm2.h0.0031-10.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/lnd/hist/mio_1850alb_734ppm.clm2.h0.0031-10.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.clm2.h0.0032-04.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/lnd/hist/mio_1850alb_734ppm.clm2.h0.0032-04.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.clm2.h0.0031-05.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/lnd/hist/mio_1850alb_734ppm.clm2.h0.0031-05.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.clm2.h0.0032-09.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/lnd/hist/mio_1850alb_734ppm.clm2.h0.0032-09.nc 
+copying /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.clm2.h0.0033-12.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/lnd/hist/mio_1850alb_734ppm.clm2.h0.0033-12.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.clm2.h0.0032-11.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/lnd/hist/mio_1850alb_734ppm.clm2.h0.0032-11.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.clm2.h0.0033-10.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/lnd/hist/mio_1850alb_734ppm.clm2.h0.0033-10.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.clm2.h0.0031-04.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/lnd/hist/mio_1850alb_734ppm.clm2.h0.0031-04.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.clm2.h0.0032-03.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/lnd/hist/mio_1850alb_734ppm.clm2.h0.0032-03.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.clm2.h0.0033-08.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/lnd/hist/mio_1850alb_734ppm.clm2.h0.0033-08.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.clm2.h0.0030-12.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/lnd/hist/mio_1850alb_734ppm.clm2.h0.0030-12.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.clm2.h0.0032-12.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/lnd/hist/mio_1850alb_734ppm.clm2.h0.0032-12.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.clm2.h0.0032-01.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/lnd/hist/mio_1850alb_734ppm.clm2.h0.0032-01.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.clm2.h0.0033-05.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/lnd/hist/mio_1850alb_734ppm.clm2.h0.0033-05.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.clm2.h0.0033-02.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/lnd/hist/mio_1850alb_734ppm.clm2.h0.0033-02.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.clm2.h0.0031-02.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/lnd/hist/mio_1850alb_734ppm.clm2.h0.0031-02.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.clm2.h0.0033-01.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/lnd/hist/mio_1850alb_734ppm.clm2.h0.0033-01.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.clm2.h0.0032-08.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/lnd/hist/mio_1850alb_734ppm.clm2.h0.0032-08.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.clm2.h0.0031-01.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/lnd/hist/mio_1850alb_734ppm.clm2.h0.0031-01.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.clm2.h0.0031-03.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/lnd/hist/mio_1850alb_734ppm.clm2.h0.0031-03.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.clm2.h0.0031-12.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/lnd/hist/mio_1850alb_734ppm.clm2.h0.0031-12.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.clm2.h0.0033-11.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/lnd/hist/mio_1850alb_734ppm.clm2.h0.0033-11.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.clm2.h0.0031-06.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/lnd/hist/mio_1850alb_734ppm.clm2.h0.0031-06.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.clm2.h0.0031-08.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/lnd/hist/mio_1850alb_734ppm.clm2.h0.0031-08.nc 
+Archiving history files for cice (ice)
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cice.h.0032-04.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/ice/hist/mio_1850alb_734ppm.cice.h.0032-04.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cice.h.0031-10.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/ice/hist/mio_1850alb_734ppm.cice.h.0031-10.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cice.h.0031-06.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/ice/hist/mio_1850alb_734ppm.cice.h.0031-06.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cice.h.0033-10.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/ice/hist/mio_1850alb_734ppm.cice.h.0033-10.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cice.h.0033-08.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/ice/hist/mio_1850alb_734ppm.cice.h.0033-08.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cice.h.0032-11.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/ice/hist/mio_1850alb_734ppm.cice.h.0032-11.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cice.h.0032-01.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/ice/hist/mio_1850alb_734ppm.cice.h.0032-01.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cice.h.0033-11.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/ice/hist/mio_1850alb_734ppm.cice.h.0033-11.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cice.h.0032-05.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/ice/hist/mio_1850alb_734ppm.cice.h.0032-05.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cice.h.0032-10.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/ice/hist/mio_1850alb_734ppm.cice.h.0032-10.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cice.h.0033-05.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/ice/hist/mio_1850alb_734ppm.cice.h.0033-05.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cice.h.0032-08.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/ice/hist/mio_1850alb_734ppm.cice.h.0032-08.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cice.h.0032-12.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/ice/hist/mio_1850alb_734ppm.cice.h.0032-12.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cice.h.0033-04.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/ice/hist/mio_1850alb_734ppm.cice.h.0033-04.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cice.h.0031-12.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/ice/hist/mio_1850alb_734ppm.cice.h.0031-12.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cice.h.0032-06.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/ice/hist/mio_1850alb_734ppm.cice.h.0032-06.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cice.h.0032-07.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/ice/hist/mio_1850alb_734ppm.cice.h.0032-07.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cice.h.0033-03.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/ice/hist/mio_1850alb_734ppm.cice.h.0033-03.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cice.h.0033-01.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/ice/hist/mio_1850alb_734ppm.cice.h.0033-01.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cice.h.0032-03.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/ice/hist/mio_1850alb_734ppm.cice.h.0032-03.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cice.h.0031-09.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/ice/hist/mio_1850alb_734ppm.cice.h.0031-09.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cice.h.0033-06.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/ice/hist/mio_1850alb_734ppm.cice.h.0033-06.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cice.h.0033-09.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/ice/hist/mio_1850alb_734ppm.cice.h.0033-09.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cice.h.0031-11.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/ice/hist/mio_1850alb_734ppm.cice.h.0031-11.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cice.h.0031-01.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/ice/hist/mio_1850alb_734ppm.cice.h.0031-01.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cice.h.0032-09.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/ice/hist/mio_1850alb_734ppm.cice.h.0032-09.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cice.h.0033-07.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/ice/hist/mio_1850alb_734ppm.cice.h.0033-07.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cice.h.0031-08.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/ice/hist/mio_1850alb_734ppm.cice.h.0031-08.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cice.h.0031-04.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/ice/hist/mio_1850alb_734ppm.cice.h.0031-04.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cice.h.0032-02.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/ice/hist/mio_1850alb_734ppm.cice.h.0032-02.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cice.h.0031-05.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/ice/hist/mio_1850alb_734ppm.cice.h.0031-05.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cice.h.0031-03.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/ice/hist/mio_1850alb_734ppm.cice.h.0031-03.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cice.h.0031-02.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/ice/hist/mio_1850alb_734ppm.cice.h.0031-02.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cice.h.0031-07.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/ice/hist/mio_1850alb_734ppm.cice.h.0031-07.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cice.h.0033-02.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/ice/hist/mio_1850alb_734ppm.cice.h.0033-02.nc 
+moving /glade/scratch/tykukla/mio_1850alb_734ppm/run/mio_1850alb_734ppm.cice.h.0033-12.nc to /glade/scratch/tykukla/archive/mio_1850alb_734ppm/ice/hist/mio_1850alb_734ppm.cice.h.0033-12.nc 
+Archiving history files for docn (ocn)
+Archiving history files for drv (cpl)
+Archiving history files for dart (esp)
+st_archive completed
+resubmitting from st_archive, resubmit=6
+Submitting job 'case.run', resubmit=6
+submit_jobs case.run
+Submit job case.run
+Submitting job script qsub -q regular -l walltime=12:00:00 -A UWAS0125 -v ARGS_FOR_SCRIPT='--resubmit' .case.run
+Submitted job id is 1373768.chadmin1.ib0.cheyenne.ucar.edu
+Submit job case.st_archive
+Submitting job script qsub -q share -l walltime=0:20:00 -A UWAS0125  -W depend=afterok:1373768.chadmin1.ib0.cheyenne.ucar.edu -v ARGS_FOR_SCRIPT='--resubmit' case.st_archive
+Submitted job id is 1373770.chadmin1.ib0.cheyenne.ucar.edu
+Submitted job case.run with id 1373768.chadmin1.ib0.cheyenne.ucar.edu
+Submitted job case.st_archive with id 1373770.chadmin1.ib0.cheyenne.ucar.edu

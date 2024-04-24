@@ -1,0 +1,72 @@
+2023-05-08 11:28:34: ./create_clone --clone /glade/u/home/mlague/cesmruns/simple_land/miocene/SLIM_CAM5_miocene_1850alb_600ppm --case /glade/u/home/tykukla/cesmruns/miocene_proj/mio_1850alb_367ppm_v3 --cime-output-root /glade/scratch/tykukla
+ ---------------------------------------------------
+2023-05-08 11:28:34: Compset longname is 2000_CAM50_CLM50%BGC_CICE_DOCN%SOM_SROF_SGLC_SWAV
+ ---------------------------------------------------
+2023-05-08 11:28:34: Compset specification file is /glade/u/home/tykukla/cesm_source/SimpleLand/SimpleLand/cime/../cime_config/config_compsets.xml
+ ---------------------------------------------------
+2023-05-08 11:28:34: Pes     specification file is /glade/u/home/tykukla/cesm_source/SimpleLand/SimpleLand/cime/../cime_config/config_pes.xml
+ ---------------------------------------------------
+
+    *** original clone README follows ****
+ 2020-04-01 14:36:06: ./create_clone --clone /glade/u/home/mlague/cesmruns/simple_land/realistic/cesm2_1_slim_git/snowcap/SLIM_CAM5_1850alb_1850rs_1850hc_online_snowcap --case /glade/u/home/mlague/cesmruns/simple_land/miocene/SLIM_CAM5_miocene_1850alb_600ppm --project UCBK0031
+ ---------------------------------------------------
+2020-04-01 14:36:06: Compset longname is 2000_CAM50_CLM50%BGC_CICE_DOCN%SOM_SROF_SGLC_SWAV
+ ---------------------------------------------------
+2020-04-01 14:36:06: Compset specification file is /glade/u/home/mlague/cesm_source/SimpleLand/SimpleLand/cime/../cime_config/config_compsets.xml
+ ---------------------------------------------------
+2020-04-01 14:36:06: Pes     specification file is /glade/u/home/mlague/cesm_source/SimpleLand/SimpleLand/cime/../cime_config/config_pes.xml
+ ---------------------------------------------------
+
+    *** original clone README follows ****
+ 2019-06-03 16:30:34: ./create_clone --clone /glade/u/home/mlague/cesmruns/simple_land/realistic/cesm2_1_slim_git/SLIM_CAM5_1850alb_1850rs_1850hc_online --case /glade/u/home/mlague/cesmruns/simple_land/realistic/cesm2_1_slim_git/snowcap/SLIM_CAM5_1850alb_1850rs_1850hc_online_snowcap
+ ---------------------------------------------------
+2019-06-03 16:30:34: Compset longname is 2000_CAM50_CLM50%BGC_CICE_DOCN%SOM_SROF_SGLC_SWAV
+ ---------------------------------------------------
+2019-06-03 16:30:34: Compset specification file is /gpfs/u/home/mlague/cesm_source/SimpleLand/SimpleLand/cime/../cime_config/config_compsets.xml
+ ---------------------------------------------------
+2019-06-03 16:30:34: Pes     specification file is /gpfs/u/home/mlague/cesm_source/SimpleLand/SimpleLand/cime/../cime_config/config_pes.xml
+ ---------------------------------------------------
+
+    *** original clone README follows ****
+ 2019-01-11 16:32:46: ./create_newcase --case /glade/u/home/mlague/cesmruns/simple_land/realistic/cesm2_1_slim_git/SLIM_CAM5_1850alb_1850rs_1850hc_online --compset 2000_CAM50_CLM50%BGC_CICE_DOCN%SOM_SROF_SGLC_SWAV --res f19_g16 --run-unsupported
+ ---------------------------------------------------
+2019-01-11 16:32:46: Compset longname is 2000_CAM50_CLM50%BGC_CICE_DOCN%SOM_SROF_SGLC_SWAV
+ ---------------------------------------------------
+2019-01-11 16:32:46: Compset specification file is /gpfs/u/home/mlague/cesm_source/SimpleLand/SimpleLand/cime_config/config_compsets.xml
+ ---------------------------------------------------
+2019-01-11 16:32:46: Pes     specification file is /gpfs/u/home/mlague/cesm_source/SimpleLand/SimpleLand/cime_config/config_pes.xml
+ ---------------------------------------------------
+2019-01-11 16:32:46: Forcing is 1972-2004
+ ---------------------------------------------------
+2019-01-11 16:32:46: Using None coupler instances
+ ---------------------------------------------------
+2019-01-11 16:32:46: Component ATM is CAM cam5 physics:
+ ---------------------------------------------------
+2019-01-11 16:32:46: ATM_GRID is 1.9x2.5
+ ---------------------------------------------------
+2019-01-11 16:32:46: Component LND is clm5.0:BGC (vert. resol. CN and methane):
+ ---------------------------------------------------
+2019-01-11 16:32:46: LND_GRID is 1.9x2.5
+ ---------------------------------------------------
+2019-01-11 16:32:46: Component ICE is Sea ICE (cice) model version 5
+ ---------------------------------------------------
+2019-01-11 16:32:46: ICE_GRID is gx1v6
+ ---------------------------------------------------
+2019-01-11 16:32:46: Component OCN is DOCN   slab ocean mode
+ ---------------------------------------------------
+2019-01-11 16:32:46: OCN_GRID is gx1v6
+ ---------------------------------------------------
+2019-01-11 16:32:46: Component ROF is Stub river component
+ ---------------------------------------------------
+2019-01-11 16:32:46: ROF_GRID is null
+ ---------------------------------------------------
+2019-01-11 16:32:46: Component GLC is Stub glacier (land ice) component
+ ---------------------------------------------------
+2019-01-11 16:32:46: GLC_GRID is null
+ ---------------------------------------------------
+2019-01-11 16:32:46: Component WAV is Stub wave component
+ ---------------------------------------------------
+2019-01-11 16:32:46: WAV_GRID is null
+ ---------------------------------------------------
+2019-01-11 16:32:46: ESP_GRID is None
+ ---------------------------------------------------

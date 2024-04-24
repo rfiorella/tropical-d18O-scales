@@ -1,0 +1,9 @@
+&comp_inparm 
+
+
+
+orb_mode = "fixed_year"
+
+orb_iyear = -216050
+
+/ 

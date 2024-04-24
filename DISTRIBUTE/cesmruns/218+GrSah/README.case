@@ -1,0 +1,28 @@
+2023-08-19 18:22:28: ./create_clone --clone /glade/u/home/tykukla/cesmruns/miocene_proj/mio_darkSahara_367ppm_v5 --case /glade/u/home/tykukla/cesmruns/miocene_proj/mio_darkSahara_218ka_367ppm_v1
+ ---------------------------------------------------
+2023-08-19 18:22:28: Compset longname is 2000_CAM50_CLM50%BGC_CICE_DOCN%SOM_SROF_SGLC_SWAV
+ ---------------------------------------------------
+2023-08-19 18:22:28: Compset specification file is /glade/u/home/tykukla/cesm_source/SimpleLand/SimpleLand/cime/../cime_config/config_compsets.xml
+ ---------------------------------------------------
+2023-08-19 18:22:28: Pes     specification file is /glade/u/home/tykukla/cesm_source/SimpleLand/SimpleLand/cime/../cime_config/config_pes.xml
+ ---------------------------------------------------
+
+    *** original clone README follows ****
+ 2023-05-12 12:55:55: ./create_clone --clone /glade/u/home/mlague/cesmruns/simple_land/miocene/SLIM_CAM5_miocene_darkSahara_367ppm --case /glade/u/home/tykukla/cesmruns/miocene_proj/mio_darkSahara_367ppm_v5 --cime-output-root /glade/scratch/tykukla
+ ---------------------------------------------------
+2023-05-12 12:55:55: Compset longname is 2000_CAM50_CLM50%BGC_CICE_DOCN%SOM_SROF_SGLC_SWAV
+ ---------------------------------------------------
+2023-05-12 12:55:55: Compset specification file is /glade/u/home/tykukla/cesm_source/SimpleLand/SimpleLand/cime/../cime_config/config_compsets.xml
+ ---------------------------------------------------
+2023-05-12 12:55:55: Pes     specification file is /glade/u/home/tykukla/cesm_source/SimpleLand/SimpleLand/cime/../cime_config/config_pes.xml
+ ---------------------------------------------------
+
+    *** original clone README follows ****
+ 2021-08-03 14:13:41: ./create_clone --clone /glade/u/home/mlague/cesmruns/simple_land/miocene/SLIM_CAM5_miocene_darkN12_367ppm --case /glade/u/home/mlague/cesmruns/simple_land/miocene/SLIM_CAM5_miocene_darkSahara_367ppm
+ ---------------------------------------------------
+2021-08-03 14:13:41: Compset longname is 2000_CAM50_CLM50%BGC_CICE_DOCN%SOM_SROF_SGLC_SWAV
+ ---------------------------------------------------
+2021-08-03 14:13:41: Compset specification file is /glade/u/home/mlague/cesm_source/SimpleLand/SimpleLand/cime/../cime_config/config_compsets.xml
+ ---------------------------------------------------
+2021-08-03 14:13:41: Pes     specification file is /glade/u/home/mlague/cesm_source/SimpleLand/SimpleLand/cime/../cime_config/config_pes.xml
+ ---------------------------------------------------
