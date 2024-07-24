@@ -1,9 +1,9 @@
 # %%
-# ------------------------------------------- # 
-# RUN 
+# ------------------------------------------- #
+# RUN
 # ------------------------------------------- #
 
-# %% 
+# %%
 
 init = {
 
@@ -11,12 +11,12 @@ init = {
     # ---------------------------------------------------- #
     "run_name":   "houston",                # must also be dir name
     "run_path":   "/Users/rfiorella/repos/tropical-d18O-scales/DISTRIBUTE/data_and_analysis", # where run_name lies
-    "input_dir":  "inputs/",                                 # where input files lie (w/in run_name)
-    "clim_fn":    "era_merged.nc",          # input climatology
+    "input_dir":  "input/",                                 # where input files lie (w/in run_name)
+    "clim_fn":    "era_mon_fixvars.nc",          # input climatology
     "force_fn":   None,                  # input forcing
-    "slices_to_solve":  None,             # names of yr_slices to solve (will solve all slices if empty)               
+    "slices_to_solve":  None,             # names of yr_slices to solve (will solve all slices if empty)
 
-    # FILE-FORMATTING ------------------------------------ # 
+    # FILE-FORMATTING ------------------------------------ #
     # ---------------------------------------------------- #
     'filesave_suffix': "",
 
@@ -24,7 +24,7 @@ init = {
     # ---------------------------------------------------- #
 
     # --- GRID --------------
-    "deg_per_lat": 0.25, 
+    "deg_per_lat": 0.25,
     "deg_per_lon": 0.25,
 
     # --- VARIABLES ---------
@@ -33,8 +33,8 @@ init = {
     "Inputfile_name_Precip": "PRECT",  # [] name of precipitation var
     "Inputfile_name_SpecHum": "Q",     # [] name of specific humidity var
     "Inputfile_name_Evap": "ET",       # [] name of evaporation var
-    "Inputfile_name_ZonalQFlux": "VIWVE", # [] name of the zonal moisture flux field
-    "Inputfile_name_MeridQFlux": "VIWVN", # [] name of the meridional moisture flux field
+    "Inputfile_name_ZonalQFlux": "UQ", # [] name of the zonal moisture flux field
+    "Inputfile_name_MeridQFlux": "VQ", # [] name of the meridional moisture flux field
     # ... these names may update throughout model run
     "Precipitation_Field": "PRECT",      # [] name of precipitation var
     "SpecHum_Field": "Q",                # [] name of specific humidity field
@@ -45,7 +45,7 @@ init = {
     "BudykoOmega_Field": "omega_budyko", # [] name of budyko free parameter field
 
     # --- TOPOGRAPHY --------
-    "orog_partition__TF": True,            # [True, False] use orog vs background precip components
+    "orog_partition__TF": False,            # [True, False] use orog vs background precip components
     "topo_varname": "topo_m",              # [] name of topography variable
     "topo_mask_varname": "orog_mask",      # [] name of orography mask
     "slope_threshold_m_cell-1": 400,       # [m deg-1] slope threshold for orog mask
@@ -54,10 +54,10 @@ init = {
 
 
 
-    # FORCING -------------------------------------------- # 
-    # ---------------------------------------------------- #  
+    # FORCING -------------------------------------------- #
+    # ---------------------------------------------------- #
 
-    # --- INSOLATION --------    
+    # --- INSOLATION --------
     "forcename_insol": "insolation",  # [] name of insolation forcing var
     "force_multiplier_insol": 1.,     # [] multiply insolation forcing by value
     "T_inertia_land": 0,              # [0-1] fraction of insol anomaly absorbed
@@ -66,7 +66,7 @@ init = {
     "force_bbox_insol": None,         # dict with "lat_bnds", "lon_bnds", and "cross_0_lon" bool
 
     # --- ALBEDO ------------
-    "forcename_albedo": "albedo",           # [] name of albedo forcing var 
+    "forcename_albedo": "albedo",           # [] name of albedo forcing var
     "force_multiplier_albedo": 1.,          # [] multiply insolation forcing by value
     "TOAalbedo_sensitivity_factor": 0.7,    # [] fraction of surface albedo anom reaching TOA (Boos & Korty, 2016)
 
@@ -120,7 +120,7 @@ init = {
     # --- ATTENUATION PARS --
     "Tau-bar_streamline-dx_km": 14,          # [km] interpolation step for transport vectors
     "Tau-bar_streamline-MaxTau": 8,          # [tau] maximum upwind tau before we deem attenuation negligible
-    "Tau-bar_streamline-MaxDist_km": 25000,  # [km] maximum upwind distance for tau integration 
+    "Tau-bar_streamline-MaxDist_km": 25000,  # [km] maximum upwind distance for tau integration
     "n_samples_TauBar_Land": 10,             # [int] number of steps to sample for getting E-source weighted tau-bar (for land evap correction)
 
     # --- TAU STREAMLINES ---
@@ -141,21 +141,21 @@ init = {
     # fraction of Dtaubar to explain by "local" change
     "Tau-bar_DtauFraction": 0.75,          # [value 0-1] fraction of total Dtaubar that we want to attribute to "local" change, computing the distance before this fraction is achieved
     # Save composite streamlines too?
-    "Tau-bar_save_local_v_regional_streamlines": False,  # [True, False] whether we store the local-only and regional-only streamline data 
+    "Tau-bar_save_local_v_regional_streamlines": False,  # [True, False] whether we store the local-only and regional-only streamline data
 
-    # CONSTANTS ------------------------------------------ # 
+    # CONSTANTS ------------------------------------------ #
     # ---------------------------------------------------- #
     "Lv": 2.54e6,                # [J kg-1] latent heat of water vaporization (ignoring slight T dependency)
     "g": 9.81,                   # [m s-2] grav. acceleration
 
 
 
-    # TIMING --------------------------------------------- # 
+    # TIMING --------------------------------------------- #
     # ---------------------------------------------------- #
-    # ... these are defined once, then updated throughout 
+    # ... these are defined once, then updated throughout
     #     the run for print-out purposes
     "ts_year": 0,                  # [yr bp] timestep year
     "slice_of_year": '',           # [] ** will be updated from 'slices_to_solve' above
 
-}   
+}
 # %%
