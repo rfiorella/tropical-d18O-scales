@@ -1,0 +1,18 @@
+# Houston bounding-box regression case
+# Run iEBM over the Houston bounding box without decomposition
+# and compare against Python reference output.
+
+name = "houston_bbox"
+description = "Houston bounding-box run, no decomposition"
+mode = "strict"  # "strict" (rtol=1e-10) or "science" (rtol=1e-2)
+
+[reference]
+# Paths relative to this file's directory.
+# Place Python reference output here:
+netcdf = "reference_output.nc"
+csv = "reference_streamlines.csv"
+
+[config]
+# RunConfig overrides (applied on top of make_houston_config defaults)
+# Add overrides here once data paths are known, e.g.:
+# input_path = "/path/to/houston/input.nc"

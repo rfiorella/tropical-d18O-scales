@@ -1,0 +1,17 @@
+# Houston decomposition regression case
+# Run iEBM with full decomposition (local/regional + E/L/s)
+# and compare against Python reference output.
+
+name = "houston_decomp"
+description = "Houston bounding-box run with decomposition enabled"
+mode = "strict"
+
+[reference]
+netcdf = "reference_output.nc"
+csv = "reference_streamlines.csv"
+
+[config]
+# Decomposition flags
+# local_v_regional_local_evap = true
+# local_v_regional_upwind = true
+# decomp_E_L_s = true

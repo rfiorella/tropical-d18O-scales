@@ -1,0 +1,14 @@
+# Coordinate-list regression case
+# Run iEBM on a specific list of coordinates and compare against Python output.
+
+name = "coord_list_basic"
+description = "Coordinate-list mode run"
+mode = "strict"
+
+[reference]
+netcdf = "reference_output.nc"
+csv = "reference_streamlines.csv"
+
+[config]
+# Override to use coordinate list mode
+# coord_file = "/path/to/coords.csv"
